@@ -22,7 +22,6 @@ def exercise1():
       coordinate_col = coordinate_col - map_cols_number # move
     # Record our way
     our_way += map_item[coordinate_row][coordinate_col]
-    # print (f'x, y = {coordinate_row} {coordinate_col}. Way = {our_way}')
     # Shall we continue?
     if coordinate_row >= map_rows_number - 1: break
 
